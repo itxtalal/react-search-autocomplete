@@ -43,7 +43,7 @@ export function TvShow(props) {
   return (
     <TvShowContainer>
       <Thumbnail>
-        <img src={thumbanilSrc} />
+        <img src={thumbanilSrc} alt="S" />
       </Thumbnail>
       <Name>{name}</Name>
       <Rating>{rating || "N/A"}</Rating>
