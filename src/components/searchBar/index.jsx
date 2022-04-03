@@ -153,7 +153,7 @@ export function SearchBar(props) {
   }, [isClickedOutside]);
 
   const prepareSearchQuery = (query) => {
-    const url = `http://api.tvmaze.com/search/shows?q=${query}`;
+    const url = `https://api.tvmaze.com/search/shows?q=${query}`;
 
     return encodeURI(url);
   };
